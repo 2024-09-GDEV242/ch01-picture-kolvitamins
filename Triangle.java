@@ -3,6 +3,8 @@ import java.awt.*;
 /**
  * A triangle that can be manipulated and that draws itself on a canvas.
  * 
+ * Changed default position to 0, 0
+ * 
  * @author  Michael Kšlling and David J. Barnes
  * @version 2016.02.29
  */
@@ -23,8 +25,8 @@ public class Triangle
     {
         height = 60;
         width = 70;
-        xPosition = 210;
-        yPosition = 140;
+        xPosition = 0;
+        yPosition = 0;
         color = "green";
         isVisible = false;
     }

@@ -4,6 +4,8 @@ import java.awt.geom.*;
 /**
  * A circle that can be manipulated and that draws itself on a canvas.
  * 
+ * changed default position to 0, 0
+ * 
  * @author  Michael Kšlling and David J. Barnes
  * @version 2016.02.29
  */
@@ -15,6 +17,7 @@ public class Circle
     private int yPosition;
     private String color;
     private boolean isVisible;
+    private String name;
     
     /**
      * Create a new circle at default position with default color.
@@ -22,8 +25,8 @@ public class Circle
     public Circle()
     {
         diameter = 68;
-        xPosition = 230;
-        yPosition = 90;
+        xPosition = 0;
+        yPosition = 0;
         color = "blue";
     }
 
