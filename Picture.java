@@ -166,6 +166,8 @@ public class Picture
             head.moveVertical(175);
             head.changeSize(40);
             head.makeVisible();
+            drawn = true;
+        
         }
     }
 
